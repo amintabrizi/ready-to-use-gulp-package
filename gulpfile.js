@@ -145,7 +145,7 @@ gulp.task('watch', function(){
   
 });
 
-//execute requirement taks
+//execute requirement tasks
 gulp.task('default', gulp.series(
   'sass',
   'compress_assets',
@@ -155,7 +155,7 @@ gulp.task('default', gulp.series(
   'watch'
 ))
 
-//builds everything
+//build everything
 gulp.task('build', gulp.series(
   'sass',
   'compress_assets',
